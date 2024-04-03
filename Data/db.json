@@ -1,0 +1,34 @@
+{
+  "services": [
+    {
+      "image": "/services/1.png",
+      "title": "Online Teaching",
+      "description": "With online learning programs, parents can teach their kids anytime and anywhere."
+    },
+    {
+      "image": "/services/2.png",
+      "title": "Live Classes",
+      "description": "Although live class ideas are already prevalent and established education business."
+    },
+    {
+      "image": "/services/3.png",
+      "title": "Trained Teachers",
+      "description": "Teaching is a passion and experts want to share their expertise outside of the institutional sphere."
+    },
+    {
+        "image": "/services/4.png",
+        "title": "Visual Concepts",
+        "description": "Learning by watching videos is better than reading long pages and bulky books."
+      },
+      {
+        "image": "/services/5.png",
+        "title": "Gamified Course",
+        "description": "Gamification immerses the students into the subject matter."
+      },
+      {
+        "image": "/services/6.png",
+        "title": "Trained Teachers",
+        "description": "Teaching is a passion and experts want to share their expertise outside of the institutional sphere."
+      }
+  ]
+}
