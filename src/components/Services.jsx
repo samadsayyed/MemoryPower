@@ -9,7 +9,6 @@ const Services = () => {
       try {
         const res = await fetch("http://localhost:3000/services");
         const data = await res.json();
-        console.log(data);
         setServices(data);
       } catch (error) {
         console.log(error);
@@ -17,7 +16,6 @@ const Services = () => {
     };
     fetchData();
   }, []);
-  console.log(services, "services");
   return (
     <div className=' bg-[url("/greyCloud.png")] min-h-[100vh] flex  items-center flex-col'>
       <h1 className=" text-4xl text-center">Services we offer ?</h1>

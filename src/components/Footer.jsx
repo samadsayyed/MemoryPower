@@ -17,9 +17,9 @@ const Footer = () => {
         </button>
         </Link>
       </div>
-      <div className=" flex">
-        <div className="w-2/5 p-10">
-          <img className=" w-1/2 " src={MainLogo} alt="" />
+      <div className=" flex flex-col md:flex-row">
+        <div className="md:w-2/5 p-10">
+          <img className=" md:w-1/2 " src={MainLogo} alt="" />
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -29,7 +29,7 @@ const Footer = () => {
             remaining essentially unchanged.
           </p>
         </div>
-        <div className="w-1/5 p-10">
+        <div className="md:w-1/5 p-10">
           <h3 className=" underline text-2xl">Important links</h3>
           <ul className=" gap-10 h-full flex flex-col">
             <Link to={"/"}>

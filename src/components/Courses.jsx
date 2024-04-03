@@ -27,7 +27,7 @@ const Courses = () => {
         <div className='flex justify-around items-center flex-wrap'>
             {
                 coursesData.map((i,index)=>(
-                    <CoursesCard img={i.img} title={i.title} price={i.price}/>
+                    <CoursesCard key={index} img={i.img} title={i.title} price={i.price}/>
                 ))
             }
         </div>

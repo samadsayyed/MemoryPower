@@ -11,7 +11,7 @@ const Slider = () => {
   return (
     <Carousel autoPlay interval={1500} infiniteLoop showStatus={false}>
       {SliderImages.map((value, index) => (
-        <div>
+        <div key={index}>
           <img src={value} />
         </div>
       ))}
