@@ -35,22 +35,22 @@ const Navbar = () => {
         className="flex flex-col lg:flex-row  bg-white translate-x-[100vw]  md:h-full md:translate-x-0 duration-1000 md:p-0 top-0 absolute md:static h-screen"
       >
         <ul className=" text-[#6bc4fc] flex flex-col md:flex-row items-center gap-8 text-lg font-semibold ">
-          <Link to={"/"}>
+          <Link to={"/"} onClick={()=>handleToggle()}>
             <li className=" flex items-center gap-2">
               <FaHome /> Home
             </li>
           </Link>
-          <Link to={"/meet-founder"}>
+          <Link to={"/meet-founder"} onClick={()=>handleToggle()}>
             <li className=" flex items-center gap-2">
               <BsStars /> About
             </li>
           </Link>
-          <Link to={"/"}>
+          <Link to={"/"} onClick={()=>handleToggle()}>
             <li className=" flex items-center gap-2">
               <RiGraduationCapFill /> Courses
             </li>
           </Link>
-          <Link to={"/contact"}>
+          <Link to={"/contact"} onClick={()=>handleToggle()}>
             <li className=" flex items-center gap-2">
               <FaPhoneAlt /> Contact Us
             </li>
